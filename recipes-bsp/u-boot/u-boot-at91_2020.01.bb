@@ -17,7 +17,7 @@ UBRANCH = "u-boot-2020.01-at91"
 UBRANCH_sama7g5 = "sama7g5_early"
 
 SRC_URI = "git://github.com/linux4sam/u-boot-at91.git;protocol=https;branch=${UBRANCH} \
-           file://0001-HID_customizations.patch"
+           file://0001-HID_customizations.patch file://0002-Uboot_password.patch"
 
 S = "${WORKDIR}/git"
 
