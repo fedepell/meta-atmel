@@ -31,8 +31,6 @@ IMAGE_INSTALL_append = " \
 	luacjson \
 	luasys \
 	luasocket \
-	lualfs \
-	luaexpat \
 	curl \
 	libmodbus \
 	openvpn \
@@ -55,7 +53,6 @@ IMAGE_INSTALL_append = " \
 	wget \
 	tar \
 	screen \
-	msmtp \
 	lsof \
 	iptables \
 	gzip \
